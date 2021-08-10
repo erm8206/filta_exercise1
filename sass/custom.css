@@ -1,0 +1,336 @@
+***/
+ 
+* {
+	margin:0px;
+	padding:0px;
+	border:none;
+	outline:none;
+}
+*,*:focus,*:hover{
+    outline: none !important;
+}
+a {
+    text-decoration: none!important;
+        text-decoration: none!important;
+        cursor: pointer!important;
+        color: #694270!important;
+  }
+/*** 
+
+====================================================================
+	4. Global Settings
+====================================================================
+
+ ***/
+
+ @font-face {
+    font-family: CeraProBold;
+    src: url("../fonts/CeraPro-Bold.woff");
+ }
+ @font-face {
+    font-family: CeraProLight;
+    src: url("../fonts/CeraPro-Light.woff");
+ }
+
+body {
+	font-family: CeraProLight;
+	font-size:14px;
+	color:#694270;
+	line-height:1.7em;
+	font-weight:400;
+	background:#e5e5e5;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+}
+
+.bordered-layout .page-wrapper{
+	padding:0px 50px 0px;
+}
+
+a{
+	text-decoration:none;
+	cursor:pointer;
+	color:#e9c37a;
+}
+
+button,
+a:hover,a:focus,a:visited{
+	text-decoration:none;
+	outline:none !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	position:relative;
+	font-weight:normal;
+	margin:0px;
+	background:none;
+	line-height:1.6em;
+	font-family: CeraProBold;
+}
+
+/* Typography */
+
+h1{
+	font-size:70px;
+}
+
+h2{
+	font-size:40px;
+}
+
+h3{
+	font-size:28px;
+}
+
+h4{
+	font-size:24px;
+}
+
+h5{
+	font-size:20px;
+}
+
+h6{
+	font-size:18px;
+}
+
+
+
+p{
+	position:relative;
+	line-height:1.8em;	
+	
+}
+
+.auto-container{
+	position:static;
+	max-width:1200px;
+	padding:0px 15px;
+	margin:0 auto;
+}
+
+.medium-container{
+	max-width:850px;
+}
+
+.page-wrapper{
+	position:relative;
+	margin:0 auto;
+	width:100%;
+	min-width:300px;
+}
+
+ul,li{
+	list-style:none;
+	padding:0px;
+	margin:0px;	
+}
+
+img{
+	display:inline-block;
+	max-width:100%;
+}
+.topnav {
+    background-color: #333;
+    height: 70px;
+    background: #FFFFFF;
+    position: fixed;
+    width: 100vw;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+}
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 100%;
+}
+.branding-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 118px;
+    height: 57px;
+}
+.left-icon-image{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    float: left;
+    
+}
+.right-icon-image{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    float: right;
+    
+}
+.icon-image{
+    width: 18.47px;
+    height: 18.47px;
+    cursor: pointer;
+}
+
+
+
+.cart_qty_cls {
+    position: absolute;
+    background: #8AC240;
+    width: 15px;
+    height: 15px;
+    color: #ffff;
+    border-radius: 520px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    top: 1px;
+    right: -10px;
+    padding: 1px;
+}
+.searchbody{
+    top: -14px;
+    position: absolute;
+    width: 387px;
+    max-height: 435px;
+    background: #fff;
+    box-sizing: border-box;
+    z-index: 3000;
+    box-shadow: 0 4px 8px 0 #ddd, 0 6px 20px 0 #ddd;
+    left: 40px;
+    border-radius: 12px;
+}
+.inner-content{
+    padding: 8px 10px;
+}
+
+.search-input{
+    width: 100%;
+    border: 0;
+    background-color: #F0ECF1;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 50px;
+    color: #694270;
+    font-weight: 700;
+}
+.inputContainer img {
+    position: absolute;
+ }
+ .inputContainer i {
+    position: absolute;
+ }
+ .inputContainer {
+    width: 100%;
+    margin-bottom: 10px;
+ }
+ .input-left-icon {
+    width: 18.47px;
+    text-align: left;
+    top: 20px;
+    left: 20px;
+ }
+ .input-right-icon {
+    text-align: right;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: #cabccd;
+ }
+
+
+ ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #694270;
+    font-weight:  700;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #694270;
+    font-weight:  700;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #694270;
+    font-weight:  700;
+  }
+  .header-title{
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+  }
+  .space-between { 
+    justify-content: space-between; 
+  } 
+
+  .hyperlink-icon{
+    width: 9.64px;
+    height: 9.64px;
+  }
+  .hyperlink-label{
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    cursor: pointer;
+  }
+  .hyperlink-background {
+    padding: 2px 17px 2px 17px;
+    border-radius: 20px;
+    background: rgba(105, 66, 112, 0.1);
+  }
+  .hide-content{
+    display: none;
+  }
+
+  .content-list{
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .search-content {
+    width: 100%!important;
+    min-height: 2px!important;
+    box-sizing: border-box!important;
+    padding: 2px 2px 10px 0!important;
+    display: flex!important;
+    -o-box-pack: justify!important;
+    justify-content: space-between!important;
+    -o-box-align: center!important;
+    align-items: center!important;
+    cursor: pointer!important;
+  }
+  .search-img{
+    width: 48px;
+    height: 38px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.content-list> .search-content> .name{
+    display: inline-block;
+    -o-box-flex: 1;
+    -ms-box-flex: 1;
+    box-flex: 1;
+    flex-grow: 1;
+    vertical-align: middle;
+    margin: -2px 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    
+}
+.footer_div {
+    text-align: center;
+    border-top:1px solid #E7E7E7;
+    padding-top: 10px;
+    padding-bottom: 8px;
+   
+}
